@@ -41,7 +41,7 @@ pipeline {
         fi
         kubectl apply -f deployment.yaml
         kubectl apply -f service.yaml
-        kubectl get image
+        kubectl get service
       '''
       }
     }
